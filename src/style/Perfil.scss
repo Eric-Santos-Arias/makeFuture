@@ -1,0 +1,19 @@
+$title-font: 'Anton';
+.perfil{
+    height: 100%;
+    grid-column: 1/2;
+    border: 1px solid black;
+
+
+
+    h1{
+        font-family: $title-font;
+        font-size: 100px;
+        letter-spacing: 15px;
+    }
+    p{
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+}

@@ -1,0 +1,10 @@
+@import './src/style/Perfil.scss';
+@import './src/style/Performance.scss';
+
+
+.main-container{
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 500px auto;
+    border: 1px solid  black;
+}
