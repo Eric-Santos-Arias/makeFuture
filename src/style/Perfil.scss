@@ -1,19 +1,37 @@
-$title-font: 'Anton';
+$title-font: 'Dosis', sans-serif;
+$subtitle-font: 'Montserrat';
+
+@mixin positions-line($position,$bottom:0,$left:0){
+    position: $position;
+    bottom: $bottom;
+    left: $left;
+
+}
 .perfil{
     height: 100%;
     grid-column: 1/2;
-    border: 1px solid black;
 
 
 
     h1{
         font-family: $title-font;
         font-size: 100px;
-        letter-spacing: 15px;
+        font-weight: 500;
+        margin-left: 50px;
     }
     p{
         font-size: 25px;
         letter-spacing: 2px;
+        font-family: $subtitle-font;
     }
-
+    .line{
+        border: 2px solid black;
+        width: 100px;
+    }
+    .line1{
+        @include positions-line(relative,120px,320px );
+    }
+    .line2{
+       @include positions-line(relative,120px,120px )
+    }
 }

@@ -1,27 +1,71 @@
 .perfil {
   height: 100%;
   grid-column: 1/2;
-  border: 1px solid black;
 }
 .perfil h1 {
-  font-family: "Anton";
+  font-family: "Dosis", sans-serif;
   font-size: 100px;
-  letter-spacing: 15px;
+  font-weight: 500;
+  margin-left: 50px;
 }
 .perfil p {
   font-size: 25px;
   letter-spacing: 2px;
+  font-family: "Montserrat";
+}
+.perfil .line {
+  border: 2px solid black;
+  width: 100px;
+}
+.perfil .line1 {
+  position: relative;
+  bottom: 120px;
+  left: 320px;
+}
+.perfil .line2 {
+  position: relative;
+  bottom: 120px;
+  left: 120px;
 }
 
 .performance {
   text-align: center;
+  grid-column: 2/3;
+}
+
+.details {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+.details .container {
+  border-top: 3px solid rgb(32, 32, 32);
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.details .container .items {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  color: rgb(32, 32, 32);
+}
+.details .container .select {
+  background-color: rgb(32, 32, 32);
+  color: white;
 }
 
 .main-container {
   display: grid;
   grid-template-columns: 60% auto;
-  grid-template-rows: 500px auto;
-  border: 1px solid black;
+  grid-template-rows: 400px 300px;
+  user-select: none;
+}
+
+.performance {
+  visibility: hidden;
 }
 
 /*# sourceMappingURL=App.css.map */
