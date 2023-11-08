@@ -36,12 +36,22 @@
 .details {
   grid-column: 1/3;
   grid-row: 2/3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.details .details-show {
+  width: 600px;
+  height: 200px;
+  border: 1px solid black;
+  margin-right: 70px;
 }
 .details .container {
   border-top: 3px solid rgb(32, 32, 32);
   width: 500px;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 20px;
 }
 .details .container .items {
   width: 150px;
@@ -59,9 +69,11 @@
 
 .main-container {
   display: grid;
-  grid-template-columns: 60% auto;
+  grid-template-columns: 60% 35%;
   grid-template-rows: 400px 300px;
   user-select: none;
+  background-image: url(/patternpad1.svg);
+  background-size: 100px;
 }
 
 .performance {

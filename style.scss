@@ -6,9 +6,12 @@
 
 .main-container{
     display: grid;
-    grid-template-columns: 60% auto;
+    grid-template-columns: 60% 35%;
     grid-template-rows: 400px 300px;
     user-select: none;
+    background-image: url(/patternpad1.svg);
+    background-size: 100px;
+    
 
 }
 .performance{
