@@ -1,9 +1,28 @@
 import React from 'react'
+import { CodeProgramain } from './CodeProgramain'
 
 export const Performance = () => {
   return (
     <div className='performance'>
-        <h2>Contenido o visualizacion</h2>
+        <CodeProgramain/>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   )
 }

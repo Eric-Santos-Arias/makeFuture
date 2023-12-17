@@ -3,18 +3,21 @@
   grid-column: 1/2;
 }
 .perfil h1 {
-  font-family: "Dosis", sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 100px;
   font-weight: 500;
   margin-left: 50px;
+  color: #242830;
+  font-size: 100px;
 }
 .perfil p {
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 2px;
   font-family: "Montserrat";
+  color: #242830;
 }
 .perfil .line {
-  border: 2px solid black;
+  border: 2px solid #242830;
   width: 100px;
 }
 .perfil .line1 {
@@ -47,7 +50,7 @@
   margin-right: 70px;
 }
 .details .container {
-  border-top: 3px solid rgb(32, 32, 32);
+  border-top: 3px solid #242830;
   width: 500px;
   display: flex;
   flex-wrap: wrap;
@@ -60,10 +63,10 @@
   line-height: 50px;
   font-family: "Montserrat";
   font-weight: bolder;
-  color: rgb(32, 32, 32);
+  color: #242830;
 }
 .details .container .select {
-  background-color: rgb(32, 32, 32);
+  background-color: #242830;
   color: white;
 }
 
@@ -72,12 +75,7 @@
   grid-template-columns: 60% 35%;
   grid-template-rows: 400px 300px;
   user-select: none;
-  background-image: url(/patternpad1.svg);
-  background-size: 100px;
-}
-
-.performance {
-  visibility: hidden;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=App.css.map */

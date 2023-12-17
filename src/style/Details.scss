@@ -1,5 +1,5 @@
 $items-font: 'Montserrat';
-$main-color: rgb(32, 32, 32);
+$main-color: #242830;
 
 .details{
     grid-column: 1/3;
@@ -30,7 +30,7 @@ $main-color: rgb(32, 32, 32);
             line-height: 50px;
             font-family:$items-font;
             font-weight: bolder;
-            color: rgb(32, 32, 32);
+            color: $main-color;
         }
         .select{
             background-color: $main-color;

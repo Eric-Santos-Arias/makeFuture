@@ -1,5 +1,7 @@
-$title-font: 'Dosis', sans-serif;
+$title-font: 'Anton', sans-serif;
 $subtitle-font: 'Montserrat';
+$main-color: #242830;
+
 
 @mixin positions-line($position,$bottom:0,$left:0){
     position: $position;
@@ -12,20 +14,22 @@ $subtitle-font: 'Montserrat';
     grid-column: 1/2;
 
 
-
     h1{
         font-family: $title-font;
         font-size: 100px;
         font-weight: 500;
         margin-left: 50px;
+        color: $main-color;
+        font-size: 100px;
     }
     p{
-        font-size: 25px;
+        font-size: 20px;
         letter-spacing: 2px;
         font-family: $subtitle-font;
+        color: $main-color;
     }
     .line{
-        border: 2px solid black;
+        border: 2px solid $main-color;
         width: 100px;
     }
     .line1{
